@@ -1,0 +1,14 @@
+
+
+
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <section class="banner">
+        <img src="{% static 'images/banner.jpg' %}" alt="Welcome Banner">
+        <h1>Welcome to [Company Name]</h1>
+        <p>Your trusted partner in [your industry]</p>
+    </section>
+{% endblock %}

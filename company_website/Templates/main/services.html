@@ -1,0 +1,26 @@
+
+
+
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block title %}Services{% endblock %}
+
+{% block content %}
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="{% static 'images/service1.png' %}" alt="Service 1">
+                <h3>Service 1</h3>
+                <p>Short description of Service 1</p>
+            </div>
+            <div class="service-card">
+                <img src="{% static 'images/service2.png' %}" alt="Service 2">
+                <h3>Service 2</h3>
+                <p>Short description of Service 2</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
